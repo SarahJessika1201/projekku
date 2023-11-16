@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Array dan perulangan</title>
+</head>
+<body>
+    <script>
+        // membuat array
+        var penyanyi = ["Ariana Grande", "Billie Elish", "Taylor Swift", "Selena Gomez"];
+
+        document.write("<h3>Daftar Penyanyi Fav:</h3>");
+        document.write("<ol>");
+        // menggunakan perulangan untuk mencetak semua isi array
+        penyanyi.forEach((data) => {
+            document.write(`<li>${data}</li>`);
+        });
+        document.write("</ol>");
+    </script>
+</body>
+</html>
